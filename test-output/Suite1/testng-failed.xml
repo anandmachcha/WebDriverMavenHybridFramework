@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite1]">
+  <test name="TestcaseA2(failed)">
+    <classes>
+      <class name="Suite1.TestcaseA2">
+        <methods>
+          <include name="testCaseA2" invocation-numbers="0 1 2 3 4"/>
+        </methods>
+      </class> <!-- Suite1.TestcaseA2 -->
+    </classes>
+  </test> <!-- TestcaseA2(failed) -->
+  <test name="TestcaseA3(failed)">
+    <classes>
+      <class name="Suite1.TestcaseA3">
+        <methods>
+          <include name="testCaseA3" invocation-numbers="1 2"/>
+        </methods>
+      </class> <!-- Suite1.TestcaseA3 -->
+    </classes>
+  </test> <!-- TestcaseA3(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
