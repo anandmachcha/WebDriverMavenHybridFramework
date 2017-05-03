@@ -17,7 +17,9 @@ public class TestcaseA1 {
 	{
 		ExcelReader excel = new ExcelReader(Constants.SUITE1);
 		ReadTestData.checkExecution("Suite1", "TestcaseA1", table.get("RunMode"), excel);
-		// THis is the change which needs to be committed.
+		System.out.println("This is the change which needs to be committed.");
+
+		// This is the change which needs to be committed.
 		
 	}
 	
